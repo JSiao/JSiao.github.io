@@ -1,0 +1,189 @@
+ {
+  text-decoration: none;
+  color: #007777;
+}
+
+body {
+  background-color: #101010; 
+  font-family: Quicksand!important;
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url("../images/Me.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+  color: #00FF00!important;
+  font-family: Quicksand!important;
+}
+
+
+p {
+    color: #00FF00; 
+}
+
+.image {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+header {
+  width: 100%;
+  clear: both;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+footer {
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 1em;
+  clear: left;
+  text-align: center;
+  text-decoration: none;
+  color: #007700;
+  height: 40px;
+  background-color:black;
+  z-index:4;
+  border-radius: 5px;
+  border: 2px solid #003F00;
+}
+
+footer a
+{
+  text-align: center;
+  text-decoration: none;
+  color: #007700;
+  
+}
+
+.navbar
+{
+  background-color: #000000;
+  background: #000000;
+}
+
+.nav-item a
+{
+  margin: 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+ 
+
+.nav-item a:hover
+{
+  color: #00FF00;
+  text-decoration: none;
+}
+
+ng-view
+{
+  padding-top:60px;
+  padding-bottom: 60px;
+}
+
+
+ul.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  overflow-x: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  height: 42px;
+  background-color: black;
+  z-index: 5;
+}
+
+ul.topnav li a{
+  display: block;
+  background-color: black;
+  color: #007700;
+  text-align:center;
+  font-family:Quicksand;
+  padding: 12px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+ul.topnav li
+{
+  float: left;
+}
+
+ul.topnav li.alt
+{
+  float: right;
+}
+
+ul.topnav li a.active
+{
+  border-radius:5px;
+  background-color: #007700;
+  color: #FFFFFF;
+}
+
+ul.topnav li a:hover:not(.active) {
+  border-radius:5px;
+  background-color: #003300;
+  color: #FFFFFF;
+}
+
+ul.topnav li:last-child a {
+  right:0;
+  color: #007700;
+  text-align:center;
+  text-decoration: none;
+  padding: 0;
+}
+
+div.main {
+  font-family:Quicksand;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display:block;
+  background-color: rgba(16, 8, 16, 0.9);
+  padding: 30px;
+  width: 600px;
+  border: 2px solid #003F00;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0px 0px 50px #000000;
+}
+@media screen and (max-width: 600px)
+{
+  div.main {width: 100%;}
+}
+
+div.prayer
+{
+  font-family: 'Cinzel', serif; 
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display:block;
+  background-color: rgba(224, 218, 208, 1);
+  color: #635D53;
+  padding: 30px;
+  width:80%;
+  border: 2px solid #003F00;
+  border-radius: 10px;
+  opacity: 1;
+}
