@@ -18,22 +18,20 @@
     <script src="resources/routing.js"></script>
   </head>
   <body ng-app="app">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom bg-black">
       <a class="navbar-brand" href="#!/">Justin Siao</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navbar"> <span class="navbar-toggler-icon"></span></button>
       <div class= "collapse navbar-collapse justify-content-end" id="nav-collapse">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav flex-column">
           <li class="nav-item"><a href="#!about">About</a></li>
-          <li class="nav-item"><a href="#!tutorials">Tutorials</a></li>
           <li class="nav-item"><a href="#!projects">Projects</a></li>
-          <li class="nav-item"><a href="#!research">Research</a></li>
           <li class="nav-item"><a href="#!contact">Contacts</a></li>
+          <li class="nav-item"><a href="http://www.cultofmar.com">Cult of Mar Collective 2018 &copy;</a></li>
         </ul>
       </div>
     </nav>
     <ng-view></ng-view>
     <footer class="fixed-bottom">
-      <a href="http://www.cultofmar.com">Cult of Mar Collective 2018 &copy;</a>
     </footer>
     <!-- More Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
