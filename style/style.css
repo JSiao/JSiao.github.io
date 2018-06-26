@@ -193,7 +193,6 @@ div.main {
 }
 @media screen and (max-width: 600px)
 {
-  div.main {width: 100%;}
 }
 
 div.prayer
