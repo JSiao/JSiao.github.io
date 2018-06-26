@@ -164,6 +164,7 @@ ul.topnav li:last-child a {
 
 div.wrapper
 {
+  right: 0%;
   position: fixed;
   height: 100vw;
   width: 90vh;
