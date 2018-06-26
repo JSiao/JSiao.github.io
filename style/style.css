@@ -164,6 +164,7 @@ ul.topnav li:last-child a {
 
 div.wrapper
 {
+  height: 100vw;
   margin: 0 auto;
   padding: 50px 0px;
   transform: rotate(-90deg);
