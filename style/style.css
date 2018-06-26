@@ -164,14 +164,16 @@ ul.topnav li:last-child a {
 
 div.wrapper
 {
+  height: 100vw;
+  width: 100vh;
   transform: rotate(-90deg);
-  transform-origin: right top;
+  transform-origin: center;
 }
 
 div.wrapper.main {
 
   transform: rotate(90deg);
-  transform-origin: right top;
+  transform-origin: center;
   font-family:Quicksand;
   margin: 0 auto;
   margin-bottom: 20px;
