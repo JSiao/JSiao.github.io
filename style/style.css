@@ -165,28 +165,27 @@ ul.topnav li:last-child a {
 div.wrapper
 {
   top: 0%;
-  position: fixed;
+  position: absolute;
   height: 100vw;
   width: 90vh;
   margin: auto;
-  padding: 50px 0px;
-  transform: rotate(-90deg);
-  transform-origin: top right;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: top left;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 div.main {
 
-  transform: rotate(90deg);
-  transform-origin: top right;
+  transform: rotate(90deg) translateY(-90vh);
+  transform-origin: top left;
   font-family:Quicksand;
   margin: 0 auto;
   margin-bottom: 20px;
   display:block;
   background-color: rgba(16, 8, 16, 0.9);
   padding: 30px;
-  width: 600px;
+  width: 100vw;
   border: 2px solid #003F00;
   border-radius: 10px;
   opacity: 0.9;
