@@ -162,7 +162,13 @@ ul.topnav li:last-child a {
   padding: 0;
 }
 
-div.main {
+div.wrapper
+{
+  transform: rotate(-90deg);
+  transform-origin: right top;
+}
+
+div.wrapper.main {
 
   transform: rotate(90deg);
   transform-origin: right top;
