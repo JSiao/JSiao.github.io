@@ -164,7 +164,7 @@ ul.topnav li:last-child a {
 
 div.wrapper
 {
-  margin: 0 auto;
+  margin: auto;
   position: absolute;
   max-width: 600px;
   margin: auto;
@@ -175,7 +175,7 @@ div.wrapper
 div.main 
 {
   font-family:Quicksand;
-  margin: 0 auto;
+  margin: auto;
   display:block;
   background-color: rgba(16, 8, 16, 0.9);
   width: 100%;
