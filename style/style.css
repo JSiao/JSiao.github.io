@@ -166,26 +166,20 @@ div.wrapper
 {
   top: 0%;
   position: absolute;
-  height: 100vw;
-  width: 90vh;
+  max-width: 600px;
   margin: auto;
-  transform: rotate(-90deg) translateX(-100%);
-  transform-origin: top left;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-div.main {
-
-  transform: rotate(90deg) translateY(-90vh);
-  transform-origin: top left;
+div.main 
+{
   font-family:Quicksand;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 85vw;
   display:block;
   background-color: rgba(16, 8, 16, 0.9);
-  padding: 30px;
-  width: 100vw;
+  width: 100%;
   border: 2px solid #003F00;
   border-radius: 10px;
   opacity: 0.9;
