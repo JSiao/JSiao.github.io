@@ -164,10 +164,9 @@ ul.topnav li:last-child a {
 
 div.wrapper
 {
-  margin: auto;
-  position: absolute;
+  margin: 0 auto;
+  position: relative;
   max-width: 600px;
-  margin: auto;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -177,6 +176,7 @@ div.main
   font-family:Quicksand;
   margin: auto;
   display:block;
+  padding: 30px;
   background-color: rgba(16, 8, 16, 0.9);
   width: 100%;
   border: 2px solid #003F00;
